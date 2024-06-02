@@ -1,6 +1,6 @@
 # Dungeon Survival
 
-![배너](a.png)
+![배너](https://github.com/bhbh1226/Dungeon-Survival/assets/27873685/b1d78427-8b3c-4f02-8606-c422b107d5b6)
 
 **Dungeon Survival**에 오신 것을 환영합니다! Java와 Swing으로 제작된 스릴 넘치는 던전 크롤링 게임입니다. 몬스터로 가득 찬 3개의 층을 탐험하고, 레벨을 올리며 던전을 생존하세요!
 
@@ -19,7 +19,7 @@ Dungeon Survival은 플레이어가 3개의 층을 탐험하며 다양한 레벨
 
 Dungeon Survival의 게임 플레이 영상을 확인하세요:
 
-[![Dungeon Survival Gameplay](link-to-thumbnail.png)]((https://youtube.com/shorts/pA2zZcCFGbY?feature=share))
+[![Dungeon Survival Gameplay](https://img.youtube.com/vi/pA2zZcCFGbY/0.jpg)](https://youtube.com/shorts/pA2zZcCFGbY?feature=share)
 
 ## 특징
 
