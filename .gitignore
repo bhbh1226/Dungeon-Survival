@@ -3,6 +3,7 @@
 
 # Output directory
 /bin
+/output
 
 # Log file
 *.log
