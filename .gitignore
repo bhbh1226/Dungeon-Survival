@@ -1,11 +1,20 @@
 # Compiled class file
 *.class
 
+# Output directory
+/bin
+
 # Log file
 *.log
 
 # BlueJ files
 *.ctxt
+
+# gimp files
+*.xcf
+
+# eclipse setting files
+/.settings
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
