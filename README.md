@@ -9,6 +9,7 @@
 - [소개](#소개)
 - [게임 플레이 영상](#게임-플레이-영상)
 - [특징](#특징)
+- [다운로드](#다운로드)
 - [사용법](#사용법)
 
 ## 소개
@@ -27,6 +28,10 @@ Dungeon Survival의 게임 플레이 영상을 확인하세요:
 - **레벨 기반 전투:** 자신의 레벨과 같거나 낮은 몬스터와만 물리칠 수 있습니다.
 - **Swing GUI:** Java Swing으로 제작된 GUI를 즐기세요.
 - **픽셀 디자인:** 분위기 있는 픽셀 아트를 느끼세요.
+
+## 다운로드
+- [실행 JAR 다운로드 링크 (Google Drive)](https://drive.google.com/file/d/1Uy8Ck1PlGdcxQ-jdWQUiAI4_4y_7oUnp/view?usp=sharing)
+  - JDK 1.8 이상 필요
 
 ## 사용법
 
