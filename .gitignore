@@ -13,6 +13,9 @@
 # gimp files
 *.xcf
 
+# resources
+/src/resources
+
 # eclipse setting files
 /.settings
 
