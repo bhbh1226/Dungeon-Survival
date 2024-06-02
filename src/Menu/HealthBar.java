@@ -12,10 +12,10 @@ import Thing.HealthListener;
 import Thing.Player;
 
 public class HealthBar extends JPanel implements HealthListener {
-    private ImageIcon Background = new ImageIcon("src/resources/health_bar_background.png");
-    private ImageIcon InnerLeft = new ImageIcon("src/resources/health_bar_inner_left.png");
-    private ImageIcon InnerMiddle = new ImageIcon("src/resources/health_bar_inner_middle.png");
-    private ImageIcon InnerRight = new ImageIcon("src/resources/health_bar_inner_right.png");
+    private ImageIcon Background = new ImageIcon(getClass().getResource("/resources/health_bar_background.png"));
+    private ImageIcon InnerLeft = new ImageIcon(getClass().getResource("/resources/health_bar_inner_left.png"));
+    private ImageIcon InnerMiddle = new ImageIcon(getClass().getResource("/resources/health_bar_inner_middle.png"));
+    private ImageIcon InnerRight = new ImageIcon(getClass().getResource("/resources/health_bar_inner_right.png"));
     private FontedLabel healthLabel;
 
     private Player player;

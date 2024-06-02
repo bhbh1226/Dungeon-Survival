@@ -5,7 +5,7 @@ import Manager.GameManager;
 
 public class EnemyIcon extends MapIcon {
     public EnemyIcon() {
-        super("src/resources/map_icon_enemy.png");
+        super("/resources/map_icon_enemy.png");
     }
 
     @Override

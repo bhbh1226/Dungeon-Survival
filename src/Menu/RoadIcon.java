@@ -4,7 +4,7 @@ import Display.Constants;
 
 public class RoadIcon extends MapIcon {
     public RoadIcon() {
-        super("src/resources/map_icon_road.png");
+        super("/resources/map_icon_road.png");
     }
 
     @Override

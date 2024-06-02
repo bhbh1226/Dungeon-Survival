@@ -16,14 +16,14 @@ public class Block extends Thing {
     private int height;
 
     static {
-        blockSprites[TYPE_GRASS_BLOCK_BOTTOM] = new Sprite("src/resources/grass_block_bottom.png");
-        blockSprites[TYPE_GRASS_BLOCK_BOTTOM_LEFT] = new Sprite("src/resources/grass_block_bottom_left.png");
-        blockSprites[TYPE_GRASS_BLOCK_BOTTOM_MIDDLE] = new Sprite("src/resources/grass_block_bottom_middle.png");
-        blockSprites[TYPE_GRASS_BLOCK_BOTTOM_RIGHT] = new Sprite("src/resources/grass_block_bottom_right.png");
-        blockSprites[TYPE_COPPER_BLOCK_BOTTOM_1x1] = new Sprite("src/resources/copper_block_bottom_1x1.png");
-        blockSprites[TYPE_COPPER_BLOCK_BOTTOM_1x3] = new Sprite("src/resources/copper_block_bottom_1x3.png");
-        blockSprites[TYPE_COPPER_BLOCK_BOTTOM_2x2] = new Sprite("src/resources/copper_block_bottom_2x2.png");
-        blockSprites[TYPE_COPPER_BLOCK_BOTTOM_3x1] = new Sprite("src/resources/copper_block_bottom_3x1.png");
+        blockSprites[TYPE_GRASS_BLOCK_BOTTOM] = new Sprite("/resources/grass_block_bottom.png");
+        blockSprites[TYPE_GRASS_BLOCK_BOTTOM_LEFT] = new Sprite("/resources/grass_block_bottom_left.png");
+        blockSprites[TYPE_GRASS_BLOCK_BOTTOM_MIDDLE] = new Sprite("/resources/grass_block_bottom_middle.png");
+        blockSprites[TYPE_GRASS_BLOCK_BOTTOM_RIGHT] = new Sprite("/resources/grass_block_bottom_right.png");
+        blockSprites[TYPE_COPPER_BLOCK_BOTTOM_1x1] = new Sprite("/resources/copper_block_bottom_1x1.png");
+        blockSprites[TYPE_COPPER_BLOCK_BOTTOM_1x3] = new Sprite("/resources/copper_block_bottom_1x3.png");
+        blockSprites[TYPE_COPPER_BLOCK_BOTTOM_2x2] = new Sprite("/resources/copper_block_bottom_2x2.png");
+        blockSprites[TYPE_COPPER_BLOCK_BOTTOM_3x1] = new Sprite("/resources/copper_block_bottom_3x1.png");
     }
 
     public Block(int type) {

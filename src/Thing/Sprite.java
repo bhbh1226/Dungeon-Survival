@@ -4,7 +4,7 @@ import javax.swing.ImageIcon;
 
 public class Sprite extends ImageIcon {
     public Sprite(String fileName) {
-        super(fileName);
+        super(Sprite.class.getResource(fileName));
     }
 
     public int getWidth() {

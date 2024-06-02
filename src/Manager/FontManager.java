@@ -2,7 +2,6 @@ package Manager;
 
 import java.awt.Font;
 import java.awt.FontFormatException;
-import java.io.File;
 import java.io.IOException;
 
 public class FontManager {
@@ -12,7 +11,7 @@ public class FontManager {
 
     private FontManager() {
         try {
-            ThaleahFatFont = Font.createFont(Font.TRUETYPE_FONT, new File("src/resources/ThaleahFat_TTF.ttf"));
+            ThaleahFatFont = Font.createFont(Font.TRUETYPE_FONT, getClass().getResourceAsStream("/resources/ThaleahFat_TTF.ttf"));
         } catch (FontFormatException | IOException e) {
             e.printStackTrace();
         }

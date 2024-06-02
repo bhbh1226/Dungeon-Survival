@@ -14,9 +14,9 @@ import Manager.ThreadListener;
 
 public class MenuModal extends JPanel implements ThreadListener {
     private JLabel iconLabel;
-    private ImageIcon checkIcon = new ImageIcon("src/resources/modal_check.png");
-    private ImageIcon crossIcon = new ImageIcon("src/resources/modal_cross.png");
-    private ImageIcon restartIcon = new ImageIcon("src/resources/modal_restart.png");
+    private ImageIcon checkIcon = new ImageIcon(getClass().getResource("/resources/modal_check.png"));
+    private ImageIcon crossIcon = new ImageIcon(getClass().getResource("/resources/modal_cross.png"));
+    private ImageIcon restartIcon = new ImageIcon(getClass().getResource("/resources/modal_restart.png"));
 
     public MenuModal() {
         this.setLayout(null);

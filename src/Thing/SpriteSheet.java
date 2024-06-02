@@ -1,7 +1,6 @@
 package Thing;
 
 import java.awt.image.BufferedImage;
-import java.io.File;
 
 import javax.imageio.ImageIO;
 
@@ -15,7 +14,7 @@ public class SpriteSheet {
         this.spriteHeight = spriteHeight;
 
         try {
-            this.spriteSheet = ImageIO.read(new File(fileName));
+            this.spriteSheet = ImageIO.read(getClass().getResource(fileName));
         } catch (Exception e) {
             e.printStackTrace();
         }

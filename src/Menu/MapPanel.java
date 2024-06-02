@@ -71,7 +71,7 @@ public class MapPanel extends JPanel implements ThreadListener {
         }
 
         // Map Border
-        ImageIcon mapBorderIcon = new ImageIcon("src/resources/map_border.png");
+        ImageIcon mapBorderIcon = new ImageIcon(getClass().getResource("/resources/map_border.png"));
         JLabel mapBorderLabel = new JLabel(mapBorderIcon);
         mapBorderLabel.setBounds(0, 0, Constants.PANEL_MAP_PANEL_WIDTH, Constants.PANEL_MAP_PANEL_HEIGHT);
         this.add(mapBorderLabel);

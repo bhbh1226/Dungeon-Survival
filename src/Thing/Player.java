@@ -6,9 +6,9 @@ import Display.Constants;
 import Manager.GameManager;
 
 public class Player extends Living {
-    private static final Sprite playerIdleSprite = new AnimatedSprite("src/resources/player_idle.png", 32, 32, 1, 4); 
-    private static final Sprite playerMovingSprite = new AnimatedSprite("src/resources/player_moving.png", 32, 32, 1, 4);
-    private static final Sprite playerHitSprite = new AnimatedSprite("src/resources/player_hit.png", 32, 32, 1, 4);
+    private static final Sprite playerIdleSprite = new AnimatedSprite("/resources/player_idle.png", 32, 32, 1, 4); 
+    private static final Sprite playerMovingSprite = new AnimatedSprite("/resources/player_moving.png", 32, 32, 1, 4);
+    private static final Sprite playerHitSprite = new AnimatedSprite("/resources/player_hit.png", 32, 32, 1, 4);
 
     private ArrayList<HealthListener> healthListeners = new ArrayList<HealthListener>();
     private ArrayList<LevelListener> levelListeners = new ArrayList<LevelListener>();

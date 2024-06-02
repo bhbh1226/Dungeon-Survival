@@ -4,24 +4,24 @@ import Display.Constants;
 
 public class Enemy extends Living implements PlayerInteractable {
     private static final Sprite[] movingSprites = {
-            new AnimatedSprite("src/resources/enemy_bat_moving.png", 46, 30, 2, 4),
-            new AnimatedSprite("src/resources/enemy_bunny_moving.png", 34, 44, 2, 4),
-            new AnimatedSprite("src/resources/enemy_bluebird_moving.png", 32, 32, 2, 4),
-            new AnimatedSprite("src/resources/enemy_angrypig_moving.png", 36, 30, 2, 4),
-            new AnimatedSprite("src/resources/enemy_chicken_moving.png", 32, 34, 2, 4),
-            new AnimatedSprite("src/resources/enemy_mushroom_moving.png", 32, 32, 2, 4),
-            new AnimatedSprite("src/resources/enemy_radish_moving.png", 30, 38, 2, 4),
-            new AnimatedSprite("src/resources/enemy_slime_moving.png", 44, 30, 2, 4),
+            new AnimatedSprite("/resources/enemy_bat_moving.png", 46, 30, 2, 4),
+            new AnimatedSprite("/resources/enemy_bunny_moving.png", 34, 44, 2, 4),
+            new AnimatedSprite("/resources/enemy_bluebird_moving.png", 32, 32, 2, 4),
+            new AnimatedSprite("/resources/enemy_angrypig_moving.png", 36, 30, 2, 4),
+            new AnimatedSprite("/resources/enemy_chicken_moving.png", 32, 34, 2, 4),
+            new AnimatedSprite("/resources/enemy_mushroom_moving.png", 32, 32, 2, 4),
+            new AnimatedSprite("/resources/enemy_radish_moving.png", 30, 38, 2, 4),
+            new AnimatedSprite("/resources/enemy_slime_moving.png", 44, 30, 2, 4),
     };
     private static final Sprite[] hitSprites = {
-            new AnimatedSprite("src/resources/enemy_bat_hit.png", 46, 30, 2, 4),
-            new AnimatedSprite("src/resources/enemy_bunny_hit.png", 34, 44, 2, 4),
-            new AnimatedSprite("src/resources/enemy_bluebird_hit.png", 32, 32, 2, 4),
-            new AnimatedSprite("src/resources/enemy_angrypig_hit.png", 36, 30, 2, 4),
-            new AnimatedSprite("src/resources/enemy_chicken_hit.png", 32, 34, 2, 4),
-            new AnimatedSprite("src/resources/enemy_mushroom_hit.png", 32, 32, 2, 4),
-            new AnimatedSprite("src/resources/enemy_radish_hit.png", 30, 38, 2, 4),
-            new AnimatedSprite("src/resources/enemy_slime_hit.png", 44, 30, 2, 4),
+            new AnimatedSprite("/resources/enemy_bat_hit.png", 46, 30, 2, 4),
+            new AnimatedSprite("/resources/enemy_bunny_hit.png", 34, 44, 2, 4),
+            new AnimatedSprite("/resources/enemy_bluebird_hit.png", 32, 32, 2, 4),
+            new AnimatedSprite("/resources/enemy_angrypig_hit.png", 36, 30, 2, 4),
+            new AnimatedSprite("/resources/enemy_chicken_hit.png", 32, 34, 2, 4),
+            new AnimatedSprite("/resources/enemy_mushroom_hit.png", 32, 32, 2, 4),
+            new AnimatedSprite("/resources/enemy_radish_hit.png", 30, 38, 2, 4),
+            new AnimatedSprite("/resources/enemy_slime_hit.png", 44, 30, 2, 4),
     };
     public static final int typeCount = movingSprites.length;
 

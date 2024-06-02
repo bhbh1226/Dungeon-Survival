@@ -36,7 +36,7 @@ public class MenuPanel extends JPanel {
         // Up Button
         // Down Button
 
-        JLabel backgroundLabel = new JLabel(new ImageIcon("src/resources/background_menu.png"));
+        JLabel backgroundLabel = new JLabel(new ImageIcon(getClass().getResource("/resources/background_menu.png")));
         backgroundLabel.setBounds(0, 0, Constants.SECTION_MENU_WIDTH, Constants.SECTION_MENU_HEIGHT);
         this.add(backgroundLabel);
     }

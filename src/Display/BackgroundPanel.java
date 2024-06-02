@@ -51,7 +51,7 @@ public class BackgroundPanel extends JPanel {
         }
 
         // draw background
-        ImageIcon background_image = new ImageIcon("src/resources/background_brown.png");
+        ImageIcon background_image = new ImageIcon(getClass().getResource("/resources/background_brown.png"));
 
         for (int i = 0; i < Constants.WINDOW_HEIGHT; i += background_image.getIconWidth()) {
             for (int j = 0; j < Constants.WINDOW_WIDTH; j += background_image.getIconHeight()) {

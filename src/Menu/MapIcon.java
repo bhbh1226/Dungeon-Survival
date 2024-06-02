@@ -7,7 +7,7 @@ import javax.swing.JLabel;
 
 public class MapIcon extends JLabel {
     public MapIcon(String path) {
-        ImageIcon icon = new ImageIcon(path);
+        ImageIcon icon = new ImageIcon(getClass().getResource(path));
         this.setIcon(icon);
         this.setSize(icon.getIconWidth(), icon.getIconHeight());
     }

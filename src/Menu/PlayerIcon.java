@@ -6,7 +6,7 @@ import Manager.GameManager;
 
 public class PlayerIcon extends MapIcon {
     public PlayerIcon() {
-        super("src/resources/map_icon_player.png");
+        super("/resources/map_icon_player.png");
     }
 
     public void updatePosition() {
